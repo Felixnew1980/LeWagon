@@ -1,0 +1,132 @@
+/* BODY */
+
+/* NAVBAR CSS */
+
+nav {
+  font-size: 15px;
+  background-color: #F4F4F4;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 1px 1px 3px rgba(14,7,13,0.5);
+}
+
+/* BANNER CSS */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px rgba(14,7,13,0.5);
+}
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* BANNER BTN CSS */
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+/* TIMELINE and BIO CSS */
+
+#bio_section {
+  background-color: #f7f7f7;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px rgba(161,181,202,0.8);
+}
+
+}
+#bio_section h3 {
+  text-decoration: underline;
+}
+#bio_section h3 {
+  text-decoration: underline;
+}
+#bio_section h4 {
+  font-size: 20px;
+  font-weight: initial;
+}
+#bio_section p {
+  font-style: italic;
+}
+#bio_section span {
+  font-size: 20px;
+  font-weight: initial;
+}
+
+/* CONTACT FORM */
+
+.card {
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px rgba(161,181,202,0.4);
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+.visible {
+  color: red;
+  font-weight: bold;
+}
+
+/* FOOTER CSS */
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 3px rgba(202,202,202,0.8);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: blue;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer-copyright {
+  color: blue;
+}
+
+/* END OF FILE */
